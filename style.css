@@ -1,0 +1,487 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	background-color: blue;
+}
+.account-page .intro{
+	text-align: center;
+	width: 100%;
+	height: 200px;
+	top: 0;
+	color: white;
+	line-height: 200px;
+	font-size: 60px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+	background: darkblue;
+	user-select: none;
+}
+.account-page .none{
+	width: 100%;
+	height: 8vh;
+}
+.account-page .container{
+	background: white;
+	width: 30%;
+	height: 340px;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	display: block;
+	border-radius: 12px;
+}
+.account-page span{
+ 	font-weight: bold;
+ 	font-size: 40px;
+	padding: 20px 0;
+	color: white;
+	display: block;
+	user-select: none;
+	text-align: center;
+	background: darkblue;
+	box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+.account-page .container form{
+	margin: 45px ;
+}
+.account-page input{
+   width: 100%;
+   height: 40px;
+   color: black;
+   font-weight: bold;
+   font-size: 15px;
+   outline-color: blue;
+   padding: 10px;
+   margin-bottom: 12px;
+   border-radius: 5px;
+   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.account-page button{
+	width: 100%;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	background-color: blue;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	transition: .5s ease;
+	margin-bottom: 12px;
+}
+.account-page button:hover{
+	background: rgba(0, 0, 100, 1.0);
+}
+.account-page a{
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.9);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+@media (max-width: 1654px){
+	.account-page .container{
+		width: 35%;
+	}
+}
+@media (max-width: 1200px){
+	.account-page .container{
+		width: 50%;
+	}
+}
+@media (max-width: 840px){
+	.account-page .intro{
+		font-size: 50px;
+	}
+}
+@media (max-width: 700px){
+	.account-page .container{
+		width: 70%;
+	}
+	.account-page .intro{
+		font-size: 40px;
+	}
+}
+@media (max-width: 600px){
+	.account-page .intro{
+		font-size: 35px;
+	}
+}
+@media (max-width: 520px){
+	.account-page .intro{
+		font-size: 30px;
+	}
+}
+	@media (max-width: 435px){
+	.account-page .intro{
+		font-size: 25px;
+	}
+}
+	@media (max-width: 340px){
+	.account-page .intro{
+		font-size: 20px;
+	}
+	.account-page span{
+		font-size: 30px;
+	}
+}
+
+
+ /*home page*/
+
+.nav-bar{
+	display: flex;
+	color: white;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	background-color: darkblue;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 80px;
+}
+.nav-bar .logo{
+	margin: 0 0 0 4%;
+}
+.nav-bar .logo a{
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	transition: 0.7s ease;
+}
+.nav-bar .logo a:hover{
+	background: rgba(0, 0, 255, 0.5);
+}
+.nav-bar .logout{
+	margin-right: 4%;
+}
+.nav-bar .logout .welcome-message{
+	padding-right: 10px;
+}
+.nav-bar .logout .welcome-message .fa-user{
+	margin-right: 5px;
+}
+.nav-bar .logout a{
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+	background: black;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: 0.7s ease;
+}
+.nav-bar .logout a:hover{
+	background: rgba(0, 0, 255, 0.5);
+}
+.nav-bar .logout a .fa-power-off{
+	margin-right: 5px;
+}
+.home-body{
+	background-image: linear-gradient(to right,rgba(0, 0, 255, 0.2),rgba(0, 0, 255, 0.2),rgba(0, 0, 255, 0.3)),url('images/Schedule_img.jpeg');
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+.body-container nav{
+	display: block;
+}
+.body-container nav .ul-1, .ul-2, .ul-3{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.body-container nav ul{
+	margin: 100px 0 0 0;
+}
+.body-container nav ul-3{
+	margin-bottom: 50px;
+}
+.body-container nav .ul-1 li{
+	align-items: center;
+	justify-content: center;
+}
+.body-container nav .ul-1 li a{
+	color: darkblue;
+	background-color: skyblue;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 30px 60px;
+	box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.4);
+	border-radius: 6px;
+	transition: 0.8s ease;
+}
+.body-container nav .ul-1 li a .fa-graduation-cap{
+	margin-right: 10px;
+}
+.body-container nav .ul-2 li{
+	align-items: center;
+	justify-content: center;
+	/*padding: 30px 0px;*/
+}
+.body-container nav .ul-2 li a{
+	color: darkblue;
+	font-size: 20px;
+	background-color: skyblue;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 30px 70px;
+	transition: 0.8s ease;
+}
+.body-container nav .ul-2 li a .fa-cog{
+	margin-right: 10px;
+}
+.body-container nav ul li a:hover{
+	background: rgba(0, 0, 255, 0.8);
+	color: white;
+}
+.body-container nav .ul-3 li a{
+	color: darkblue;
+	font-size: 20px;
+	background-color: skyblue;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 30px 50px;
+	transition: 0.8s ease;
+}
+.footer{
+	background: black;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	height: 88.5px;
+	line-height: 88.5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15px;
+	bottom: 0;
+}
+.footer .fa-copyright{
+	margin-right: 5px;
+}
+.students-list-1{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	color: black;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+	background-color: #efefef;
+	line-height: 50px;
+}
+.students-list-1 .list-1{
+	display: flex;
+	margin-left: 5%;
+	align-items: center;
+}
+.students-list-1 a{
+	font-size: 20px;
+	font-weight: bold;
+}
+.students-list-1 section{
+	font-size: 30px;
+	margin: 0 5px 0 5px;
+}
+.students-list-1 p{
+	font-size: 18px;
+}
+#list-5{
+	display: flex;
+	margin: 0 5%;
+}
+#list-5 button{
+	height: 40px;
+	width: 35vh;
+}
+.students-list-1 button{
+	border: none;
+	background-color: darkblue;
+	padding: 12px 14px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	border-radius: 5px;
+	transition: .7s ease;
+	margin: 0 5%;
+}
+.students-list-1 button:hover{
+	background: rgba(0, 0, 255, 0.8);
+}
+.list-2{
+	font-size: 30px;
+	font-weight: bold;
+	color: darkblue;
+	margin: 15px 0 5px 5%;
+
+}
+.info{
+	/*background: #efefef;*/
+}
+.students-list-2{
+	display: flex;
+	margin-left: 5%;
+	margin-bottom: 30px;
+	color: black;
+	font-size: 19px;
+}
+.students-list-2 .list-4{
+	margin: 0 5px;
+}
+.students-list-3{
+	margin: 0 20% 50px 20%;
+	margin-left: 20%;
+	margin-bottom: 50px;
+}
+.students-list-3 p{
+	font-size: 21px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.students-list-3 table .table-1{
+	background-color: skyblue;
+}
+.students-list-3 table .table-2{
+	background-color: darkgray;
+}
+.students-list-3 table{
+	font-size: 21px;
+	border-collapse: collapse;
+}
+.students-list-3 table tr{
+	height: 65px;
+}
+.students-list-3 table tr td{
+	width: 60vh;
+	padding-left: 18px;
+}
+.students-list-4{
+	margin: 0 5%;
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.students-list-4 table{
+	border-collapse: collapse;
+	border-color: darkgray;
+	font-size: 21px;
+}
+.students-list-4 table tr{
+	height: 65px;
+}
+.students-list-4 table tr td{
+	width: 100vh;
+}
+.students-list-4 table .row-1{
+	background-color: skyblue;
+}
+.students-list-4 table .row-2{
+	background-color: darkgrey;
+}
+#bal{
+	background-color: black;
+	border-radius: 10px;
+	width: 17vh;
+	height:38px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 18px;
+}
+
+/*settings*/
+
+.body{
+	/*background-image: linear-gradient(to right,rgba(0, 0, 255, 0.2),rgba(0, 0, 255, 0.2),rgba(0, 0, 255, 0.3)),url('images/hero_slider_5.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;*/
+}
+.set{
+	margin: 0 10%;
+	width: 100%;
+}
+.set form{
+	display: block;
+	margin: 0 18%;
+	align-items: center;
+	justify-content: center;
+}
+.set .set-1{
+	font-size: 40px;
+	margin: 0 13%;
+	font-weight: bold;
+}
+.set .set-2{
+	margin: 0 18%;
+	font-size: 17px;
+	margin-bottom: 2px;
+}
+.set form label{
+	font-size: 22px;
+	font-weight: bold;
+	display: flex;
+}
+.set form span input{
+	user-select: none;
+}
+.set form input{
+	width: 30%;
+	height: 40px;
+   color: black;
+   font-weight: bold;
+   font-size: 15px;
+   outline-color: blue;
+   padding: 10px;
+   margin: 10px 0;
+   background-color: blanchedalmond;
+   border-radius: 5px;
+   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.set form button{
+	width: 30%;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: skyblue;
+	color: darkblue;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	transition: .7s ease;
+}
+.set form button:hover{
+	background: rgba(0, 0, 255, 0.8);
+	color: white;
+}
+
+
+/*finance*/
+
+.finance{
+	margin: 0 10%;
+	display: block;
+	margin-bottom: 30px;
+}
+.finance table{
+	border-collapse: collapse;
+	border-color: darkgray;
+	font-size: 21px;
+	text-align: center;
+}
+.finance table tr{
+	height: 65px;
+}
+.finance table tr td{
+	width: 100vh;
+}
